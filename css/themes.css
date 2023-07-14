@@ -1,0 +1,36 @@
+* { 
+	box-sizing: border-box;
+}
+
+
+html {
+	min-width: 250px;
+}
+
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+}
+
+main {
+	background-color: teal;
+	padding: 4rem;
+}
+.theme-selector {
+	display:flex;flex-wrap: wrap;  
+	justify-content: space-evenly;
+}
+
+.theme {
+	background-color: blanchedalmond;
+	height: 25rem;
+	margin: 0.5rem;
+	border-radius: 10px;
+	min-width: 200px;
+	padding: 1rem;
+	border:1px solid #f9f9f9;
+	width: 20%;	
+	height: 16rem;
+
+}
+
